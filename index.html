@@ -14,41 +14,33 @@
             <h1>Registration</h1>
 
             <!-- username -->
-            <div class="input"> 
-                <label for="username">Enter your username</label>
-                <input type="text" class="form-control" id="username" name="username" placeholder="username" required>
-            <div class="valid-feedback">
-                Looks good!
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
             </div>
-            </div>
-
+            
             <!-- email -->
-            <div class="input"> 
-                <label for="email">Enter your email</label>
-                <input type="text" class="form-control" id="email" name="email" placeholder="email" required>
-            <div class="valid-feedback">
-                Looks good!
-            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
             </div>
 
             <!-- password -->
-            <div class="input"> 
-                <label for="password">Enter your password</label>
-                <input type="password" class="form-control" id="password" name="password" placeholder="password" required>
-            <div class="valid-feedback">
-                Looks good!
-            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
             </div>
 
             <!-- reenter the password -->
-            <div class="input"> 
-                <label for="password2">ReEnter your password</label>
-                <input type="password" class="form-control" id="password2" name="password2" placeholder="password" required>
-            <div class="valid-feedback">
-                Looks good!
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
             </div>
-            </div>
-
+            
             <!-- submit button -->
             <button class="btn btn-primary" type="submit">Submit form</button>
 
